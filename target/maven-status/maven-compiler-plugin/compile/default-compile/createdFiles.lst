@@ -1,0 +1,5 @@
+com/daasworld/hellokarate/services/PersonService.class
+com/daasworld/hellokarate/entities/Person.class
+com/daasworld/hellokarate/controllers/GreetingController.class
+com/daasworld/hellokarate/HelloKarateApplication.class
+com/daasworld/hellokarate/controllers/PersonController.class

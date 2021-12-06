@@ -1,0 +1,11 @@
+10:57:58.348 assertion failed: path: $, actual: '7', expected: '6', reason: not equal
+10:57:58.409 assertion failed: path: $.lastName, actual: 'Bajaj', expected: 'Doe', reason: not equal
+p call failed after 15 milliseconds for URL: http://localhost:8080/api/person/
+10:32:24.510 http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+10:32:24.545 org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused), http call failed after 1 milliseconds for URL: http://localhost:8080/api/person/0
+10:32:24.545 http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+10:32:24.669 org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused), http call failed after 1 milliseconds for URL: http://localhost:8080/api/person/123456
+10:32:24.669 http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)

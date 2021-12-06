@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: karate.KarateTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.026 s <<< FAILURE! - in karate.KarateTests
+testAll[1][1]  Time elapsed: 0.324 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: create.feature:14 - path: $, actual: '1', expected: '0', reason: not equal
+

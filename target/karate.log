@@ -1,0 +1,19 @@
+10:31:51.485 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: '5', expected: '0', reason: not equal
+10:32:24.508 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused), http call failed after 15 milliseconds for URL: http://localhost:8080/api/person/
+10:32:24.510 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+10:32:24.545 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused), http call failed after 1 milliseconds for URL: http://localhost:8080/api/person/0
+10:32:24.545 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+10:32:24.668 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused), http call failed after 1 milliseconds for URL: http://localhost:8080/api/person/123456
+10:32:24.669 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+10:35:03.711 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: '1', expected: '0', reason: not equal
+10:41:01.744 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: '2', expected: '0', reason: not equal
+10:42:32.757 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: 'Hello Binu!', expected: 'Hello Something!', reason: not equal
+10:50:46.216 [main] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 50, url: http://localhost:8080/api/person/5, response: 
+10:55:22.971 [main] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 75, url: http://localhost:8080/api/person/5, response: 
+10:56:06.903 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: '5', expected: '0', reason: not equal
+10:56:42.947 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: '6', expected: '0', reason: not equal
+10:57:58.345 [main] ERROR com.intuit.karate - assertion failed: path: $, actual: '7', expected: '6', reason: not equal
+10:57:58.409 [main] ERROR com.intuit.karate - assertion failed: path: $.lastName, actual: 'Bajaj', expected: 'Doe', reason: not equal

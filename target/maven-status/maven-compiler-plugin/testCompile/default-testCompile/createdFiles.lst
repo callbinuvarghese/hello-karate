@@ -1,0 +1,5 @@
+com/daasworld/hellokarate/services/PersonServiceTest.class
+karate/person/PersonRunner.class
+com/daasworld/hellokarate/controllers/PersonControllerSpringTests.class
+karate/hello/HelloRunner.class
+karate/KarateTests.class
